@@ -1,6 +1,5 @@
 import { Suspense } from "react";
-import { Posts } from "./_containers/posts";
-import PostsSkeleton from "./_containers/posts/PostsSkeleton";
+import { Posts, PostsSkeleton } from "./_containers/posts";
 
 export default function Page() {
   return (
