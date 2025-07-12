@@ -2,7 +2,7 @@ import type { ServerResponse } from "node:http";
 import { sendJsonResponse } from "mock-server/utils/response";
 import { extractPathParams, matchUrlPath } from "../utils/url";
 import { posts } from "./fixture";
-import type { Post, PostSummary, PostsResponse } from "./type";
+import type { Post, PostsResponse } from "./type";
 
 function* nextIdGenerator() {
   let id = Math.max(...posts.map((p) => p.id)) + 1;
