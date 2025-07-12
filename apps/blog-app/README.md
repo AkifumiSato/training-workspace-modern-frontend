@@ -5,11 +5,6 @@ Next.jsの課題を実装するためのアプリケーションです。課題�
 ## Getting Started
 
 ```shell-session
-# /packages/ui
-$ pnpm build # or pnpm dev
-```
-
-```shell-session
 # /apps/blog-app
 $ pnpm dev
 ```

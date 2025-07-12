@@ -4,9 +4,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"pnpm dev:next\" \"pnpm dev:mock\" -c \"yellow,blue\"",
+    "dev": "concurrently \"pnpm dev:next\" \"pnpm dev:mock\" \"pnpm dev:ui\" -c \"yellow,blue,green\"",
     "dev:next": "next dev --turbopack --port 3000",
     "dev:mock": "tsx watch mock-server/server.ts",
+    "dev:ui": "pnpm --filter @repo/ui dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
