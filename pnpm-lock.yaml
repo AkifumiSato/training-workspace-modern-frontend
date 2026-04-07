@@ -18,8 +18,8 @@ importers:
         specifier: 2.5.3
         version: 2.5.3
       typescript:
-        specifier: 5.8.2
-        version: 5.8.2
+        specifier: 6.0.2
+        version: 6.0.2
 
   apps/blog-app:
     dependencies:
@@ -2475,6 +2475,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
@@ -4729,6 +4734,8 @@ snapshots:
   tw-animate-css@1.3.0: {}
 
   typescript@5.8.2: {}
+
+  typescript@6.0.2: {}
 
   undici-types@6.21.0: {}
 
