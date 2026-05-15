@@ -276,7 +276,7 @@
       },
       "CreatePostRequest": {
         "type": "object",
-        "required": ["title", "body"],
+        "required": ["title", "summary", "body"],
         "properties": {
           "title": {
             "type": "string",
@@ -284,6 +284,12 @@
             "minLength": 1,
             "maxLength": 200,
             "example": "新しいブログ投稿のタイトル"
+          },
+          "summary": {
+            "type": "string",
+            "description": "投稿の概要",
+            "minLength": 1,
+            "example": "新しいブログ投稿の概要です。"
           },
           "body": {
             "type": "string",
@@ -295,7 +301,7 @@
       },
       "UpdatePostRequest": {
         "type": "object",
-        "required": ["title", "body"],
+        "required": ["title", "summary", "body"],
         "properties": {
           "title": {
             "type": "string",
@@ -303,6 +309,12 @@
             "minLength": 1,
             "maxLength": 200,
             "example": "更新されたブログ投稿のタイトル"
+          },
+          "summary": {
+            "type": "string",
+            "description": "更新する投稿の概要",
+            "minLength": 1,
+            "example": "更新されたブログ投稿の概要です。"
           },
           "body": {
             "type": "string",
