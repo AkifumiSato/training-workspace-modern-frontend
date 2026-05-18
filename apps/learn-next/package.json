@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "web-learn",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,15 +11,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "15.4.0-canary.116",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "22.15.3",
-    "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
-    "typescript": "5.8.2"
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
   }
 }
