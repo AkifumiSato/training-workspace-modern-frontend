@@ -1,4 +1,4 @@
-import { type IncomingMessage, createServer } from "node:http";
+import { createServer, type IncomingMessage } from "node:http";
 import { URL } from "node:url";
 import { handlePostsMock } from "./handlers/posts";
 import { logRequest } from "./utils/logger";
