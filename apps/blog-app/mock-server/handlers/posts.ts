@@ -1,5 +1,5 @@
 import type { ServerResponse } from "node:http";
-import { sendJsonResponse } from "mock-server/utils/response";
+import { sendJsonResponse } from "../utils/response";
 import { extractPathParams, matchUrlPath } from "../utils/url";
 import { posts } from "./fixture";
 import type { Post, PostsResponse } from "./type";
