@@ -1,4 +1,4 @@
-# Training workspace modern frontend(2025)
+# Training workspace modern frontend
 
 ## Dependencies
 
