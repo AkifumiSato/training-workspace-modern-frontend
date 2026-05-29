@@ -25,8 +25,8 @@ $ pnpm --version
 ## Clone & Install
 
 ```shell-session
-$ git clone https://github.com/AkifumiSato/workspace-of-modern-frontend-training-2025.git
-$ cd workspace-of-modern-frontend-training-2025
+$ git clone https://github.com/AkifumiSato/training-workspace-modern-frontend.git
+$ cd training-workspace-modern-frontend
 $ pnpm i
 # Biomeによるコードチェックで動作テスト
 $ pnpm check
